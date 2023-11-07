@@ -42,7 +42,7 @@ def turnOff():
     print("process aborted")
     return
   else:
-    myobj='{"entity_id": "switch.testsonoff01_relay"}'
+    myobj='{"entity_id": "switch.your_switch_entity_id"}'
     response = post(url_off, headers=headers, data=myobj)
     print('Outlet is now off')
     return
