@@ -40,10 +40,3 @@ NOBORG2=$'NOTE: Backup succeeded but outlet was not turned off\n'$BORG && python
 #Finally send a success message via discord
 python3 sendMessage.py -s "$BORG"
 
-#Todo
-#Securely code secrets
-#Test APi's with wireshark to makes sure they are secure
-#Rebuild Ubuntu server/plan out
-#Redeploy code and test
-#Set up chronjob
-#Finish coding installer and making documentation in Github
