@@ -6,7 +6,7 @@ import sys
 import argparse
 
 #Global variables to access the Home Assistant API
-url = "http://HomeAssistant.local:8123/api/states/switch.testsonoff01_relay"
+url = "http://HomeAssistant.local:8123/api/states/switch.your_switch_name_relay"
 url_off = "http://HomeAssistant.local:8123/api/services/switch/turn_off"
 url_on = "http://HomeAssistant.local:8123/api/services/switch/turn_on"
 
