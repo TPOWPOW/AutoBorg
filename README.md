@@ -1,0 +1,1 @@
+ AutoBorg is a collection of scripts used to automate backing up a file server to a seperate remote server using Borgbackup and a Home Assistant remote outlet (or receptacle if you are an electrician). Future versions will have more detailed documentation, and an actual installer.
